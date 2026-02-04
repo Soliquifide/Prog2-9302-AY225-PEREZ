@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record System - Web</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Student Record System</h1>
+        <footer>Programmer: Mycho Louise D. Perez - 25-2218-250</footer>
+        
+        <div class="input-section" style="background-color: #e3f2fd; margin-bottom: 10px;">
+            <h3>🔍 Search / Filter</h3>
+            <div class="input-group">
+                <input type="text" id="searchInput" placeholder="Search by any field..." style="flex: 1; min-width: 300px;">
+                <button class="btn-add" onclick="searchStudents()" style="background-color: #2196F3;">Search</button>
+                <button class="btn-add" onclick="clearSearch()" style="background-color: #9E9E9E;">Clear Filter</button>
+                <button class="btn-add" onclick="exportToCSV()" style="background-color: #4CAF50;">💾 Export CSV</button>
+            </div>
+        </div>
+        
+        <div class="input-section" id="addEditSection">
+            <h3 id="formHeader">Add New Student</h3>
+            <div class="input-group" id="inputGroup">
+                <input type="text" id="studentID" placeholder="Student ID">
+                <input type="text" id="firstName" placeholder="First Name">
+                <input type="text" id="lastName" placeholder="Last Name">
+                <input type="number" id="lab1" placeholder="Lab 1" >
+                <input type="number" id="lab2" placeholder="Lab 2" >
+                <input type="number" id="lab3" placeholder="Lab 3" >
+                <input type="number" id="prelim" placeholder="Prelim">
+                <input type="number" id="attendance" placeholder="Attendance">
+                <button id="addUpdateBtn" class="btn-add" onclick="addStudent()">Add Student</button>
+                <!-- Cancel button will be added dynamically -->
+            </div>
+        </div>
+        
+        <div class="record-count" id="recordCount">Total Records: 0</div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>LAB WORK 1</th>
+                        <th>LAB WORK 2</th>
+                        <th>LAB WORK 3</th>
+                        <th>PRELIM EXAM</th>
+                        <th>ATTENDANCE GRADE</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
