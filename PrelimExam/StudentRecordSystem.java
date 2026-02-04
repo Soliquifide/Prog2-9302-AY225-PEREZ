@@ -101,7 +101,7 @@ public class StudentRecordSystem extends JFrame {
     }
     
     private void loadCSVData() {
-        try (BufferedReader br = new BufferedReader(new FileReader("Prog2-9302-AY225-Perez/MOCK_DATA.csv"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Prog2-9302-AY225-Perez/PrelimExam/MOCK_DATA.csv"))) {
             String line;
             boolean isFirstLine = true;
             
