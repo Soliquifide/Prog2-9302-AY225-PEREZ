@@ -20,7 +20,7 @@ public class StudentRecordSystem extends JFrame {
     
     public StudentRecordSystem() {
         // Set window title with programmer identifier
-        this.setTitle("Student Records - [YOUR FULL NAME] [YOUR STUDENT ID]");
+        this.setTitle("Student Records - Mycho Louise D. Perez [25-2218-250]");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(1200, 600);
         this.setLayout(new BorderLayout());
