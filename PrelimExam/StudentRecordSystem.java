@@ -1,4 +1,4 @@
-// Programmer: [YOUR FULL NAME] - [YOUR STUDENT ID]
+// Programmer: Mycho Louise D. Perez - 25-2218-250
 // Student Record System - Java Swing Implementation
 
 import javax.swing.*;

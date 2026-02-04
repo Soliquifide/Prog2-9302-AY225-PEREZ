@@ -1,4 +1,4 @@
-// Programmer: [YOUR FULL NAME] - [YOUR STUDENT ID]
+// Programmer: Mycho Louise D. Perez - 25-2218-250
 // Student Record System - JavaScript Implementation with Pagination
 
 const csvData = ` 073900438,Osbourne,Wakenshaw,69,5,52,12,78
