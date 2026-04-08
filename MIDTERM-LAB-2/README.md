@@ -104,4 +104,4 @@ Since the determinant is not zero, the matrix is **non-singular** and has an inv
 
 ## Repository
 
-**GitHub:** `https://github.com/[your-username]/uphsd-cs-perez-mychoulouise`
+**GitHub:** `https://github.com/Soliquifide/Prog2-9302-AY225-PEREZ.git`
