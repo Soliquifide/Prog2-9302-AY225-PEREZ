@@ -6,7 +6,7 @@
 - **Course:** Math 101 – Linear Algebra, UPHSD Molino Campus
 - **Assignment:** Programming Assignment 1 — 3x3 Matrix Determinant Solver
 - **Academic Year:** 2025–2026
-- **Date Completed:* April,8,2026
+- **Date Completed:** April,8,2026
 
 ---
 
